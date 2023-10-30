@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addfruits, deletefruits } from "../Features/AddFruits";
+import { addfruits } from "../Features/AddFruits";
 import { worktobedone } from "../Features/Loding";
 
 export default function Fruits() {
